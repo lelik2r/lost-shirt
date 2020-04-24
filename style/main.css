@@ -201,7 +201,7 @@ ul > li {
     opacity: 1;
 }
 .fade-slider__item--style-tshirts {
-    background-image: url(/images/content/hero/slider_pic_1.png);
+    background-image: url(../images/content/hero/slider_pic_1.png);
 }
 .fade-slider__item--style-tshirts .fade-slider__text{
     left: 50%;
