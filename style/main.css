@@ -8,8 +8,8 @@ div {
 
 @font-face {
     font-family: 'alegreya';
-    src: url('./fonts/subset-AlegreyaSansSC-Black.woff') format('woff'),
-        url('./fonts/subset-AlegreyaSansSC-Black.woff2') format('woff2');
+    src: url('../fonts/subset-AlegreyaSansSC-Black.woff') format('woff'),
+        url('../fonts/subset-AlegreyaSansSC-Black.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ ul > li {
     height: 100vh; /*процент от высоты окна*/
     min-height: 650px;
     /* background: url(/images/bg/hero.jpg) center center / cover no-repeat; */
-    background-image: url(./images/bg/hero.jpg);
+    background-image: url(../images/bg/hero.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ ul > li {
     transform: translate(-164%, -52%);
 }
 .fade-slider__item--style-games {
-    background-image: url(/images/content/hero/slider_pic_2.png);
+    background-image: url(../images/content/hero/slider_pic_2.png);
 }
 .fade-slider__item--style-games .fade-slider__text {
     left: 50%;
@@ -222,7 +222,7 @@ ul > li {
 }
     
 .fade-slider__item--style-presents {
-    background-image: url(/images/content/hero/slider_pic_3.png);
+    background-image: url(../images/content/hero/slider_pic_3.png);
 }
 .fade-slider__item--style-presents .fade-slider__text {
     left: 0;
@@ -404,7 +404,7 @@ ul > li {
     flex: 1;
     overflow: hidden;
     margin-right: 30px;
-    background: url('./images/bg/pattern.png') center center / 500px;
+    background: url('../images/bg/pattern.png') center center / 500px;
     position: relative;
 }
 .collections__item::before {
@@ -418,10 +418,10 @@ ul > li {
     background: center center / contain no-repeat;
 }
 .collections__item--type-guys::before {
-    background-image: url('./images/collections/collection_man.png');
+    background-image: url('../images/collections/collection_man.png');
 }
 .collections__item--type-girls::before {
-    background-image: url('./images/collections/collection_woman.png');
+    background-image: url('../images/collections/collection_woman.png');
     top: -31%;
     width: 80%;
     left: -25%;
@@ -536,7 +536,7 @@ ul > li {
 }
 .extras__col-socials {
     height: 100%;
-    background: url('./images/bg/pattern.png') center center / 500px;
+    background: url('../images/bg/pattern.png') center center / 500px;
     display: flex;
     align-items: center;
     justify-content: center;
