@@ -201,7 +201,7 @@ ul > li {
     opacity: 1;
 }
 .fade-slider__item--style-tshirts {
-    background-image: url(./images/content/hero/slider_pic_1.png);
+    background-image: url(/images/content/hero/slider_pic_1.png);
 }
 .fade-slider__item--style-tshirts .fade-slider__text{
     left: 50%;
@@ -209,7 +209,7 @@ ul > li {
     transform: translate(-164%, -52%);
 }
 .fade-slider__item--style-games {
-    background-image: url(./images/content/hero/slider_pic_2.png);
+    background-image: url(/images/content/hero/slider_pic_2.png);
 }
 .fade-slider__item--style-games .fade-slider__text {
     left: 50%;
@@ -222,7 +222,7 @@ ul > li {
 }
     
 .fade-slider__item--style-presents {
-    background-image: url(./images/content/hero/slider_pic_3.png);
+    background-image: url(/images/content/hero/slider_pic_3.png);
 }
 .fade-slider__item--style-presents .fade-slider__text {
     left: 0;
